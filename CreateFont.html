@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Font</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<p id="info">
+		Hold and move mouse and write character '<span id="letter"><b>A</b></span>' then press next for next character or press clear to clear the space.
+	</p>
+	<div class="canvas-page">
+		<canvas id="myCanvas" resize></canvas>
+	</div>
+
+	<button id="prev-char" class="update-btns prev">Back</button>
+	<button id="clear-space" class="update-btns clear">Clear</button>
+	<button id="next-char" class="update-btns next">Next</button>
+	
+
+	<button id="create-font" class="create">Create Font</button>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.2/paper-core.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
